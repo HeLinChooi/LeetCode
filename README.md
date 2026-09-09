@@ -1,11 +1,23 @@
 # LeetCode
 
-Solutions, one file per problem. Weekly contest solutions live under
-`contests/<yyyy-mm-dd>/`, one file per question, with the pattern and the
-reason it did or didn't work in a header comment.
+Solutions, one file per problem, named `<number>-<Name>.js`. **JavaScript is the
+interview language**; the C++ files under `archive/` predate that decision.
 
-The notes that go with them are not here. They are in the knowledge base, under
-`docs/interviews/`, and they read better on a phone than a `.cpp` file does:
+```
+calibration/   the 15-problem Week 0 calibration set
+patterns/      ongoing prep, grouped by pattern to match the plan
+contests/      weekly contests, one folder per date, one file per question
+archive/cpp/   pre-JavaScript solutions, kept for the record
+```
+
+Every solution carries a header comment: the problem, the outcome in brackets,
+the pattern in one line, and then what actually went wrong or right. The header
+is the part worth re-reading — the code below it is usually the obvious part.
+
+## The notes are not here
+
+They are in the knowledge base, under `docs/interviews/`, and they read better
+on a phone than a `.js` file does:
 
 - **Interview Prep Plan** — what to do this week, and why that
 - **Patterns & Lessons** — the ideas that outlast the problem that taught them
