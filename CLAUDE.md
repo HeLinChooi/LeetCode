@@ -7,6 +7,26 @@ comment giving the pattern and what went wrong or right.
 JavaScript is the interview language. The `.cpp` files under `archive/` are from
 before that decision. Write new solutions in JavaScript unless asked otherwise.
 
+## Read Coin's profile first
+
+Facts about Coin, and how he wants to be worked with, are in a separate private
+repo called `ai-brain`.
+
+On his own machine that file is already loaded, because `~/.claude/CLAUDE.md` is
+a symlink into `ai-brain`. Nothing more is needed there.
+
+A cloud session is given only one repo, so it does not have that file. If
+`~/.claude/CLAUDE.md` does not exist, clone the profile and read it before
+starting work:
+
+```bash
+git clone https://github.com/HeLinChooi/ai-brain ~/ai-brain
+cat ~/ai-brain/claude/CLAUDE.md
+```
+
+The repo is private. If the clone fails because the session has no access to it,
+say so and ask Coin. Do not guess at anything about him.
+
 ## The notes are not here
 
 The notes are in the `knowledge-base` repo, under `docs/interviews/`. There are
