@@ -6,7 +6,7 @@
 // we need to know a value to decide the best time to buy."
 //
 // That sentence is already a section heading in algorithm-patterns.md, written
-// up from LC 560 four days earlier, and 121 is named in a second section
+// up from LC 560 the day before, and 121 is named in a second section
 // (Combine a sweep from the left with a sweep from the right) as "the same idea
 // with only the left sweep needed". The pattern file contained the answer twice
 // and it was not reached for. That is the finding of this problem — not the
